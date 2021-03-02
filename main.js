@@ -13,7 +13,8 @@ function createWindow () {
   })
 
   // and load the index.html of the app.
-  mainWindow.loadFile('index.html')
+  mainWindow.removeMenu()
+  mainWindow.loadFile('start.html')
 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()
